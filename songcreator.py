@@ -21,10 +21,11 @@ song.append(fourthVerse)
 song.append(chorus * repeat + chorus)
 song=song*2
 
+#inserts the string in the middle of the list
 song.insert(8, "...One More Time!...")
 
+#prints the list and the values in it
 print song
-
 for x in song:
     print (x)
 
