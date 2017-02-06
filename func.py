@@ -13,3 +13,6 @@ def userFloat(prompt):
     f = float(raw_input())
     return f
     
+def readTemp():
+    temp = readTemp()
+    return temp
