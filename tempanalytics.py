@@ -36,6 +36,5 @@ def main():
     print "During the first 35 years, the average deviation from the temperature anomaly is %s" %ave35
     print "During the first 35 years, %s " %count35 + "had a positive temperature anomaly"
   
-  
 main()
     
