@@ -24,7 +24,7 @@ def count(temps, start, stop):
         if x > 0:
             count += 1
     return count
-        
+    
 def main(): 
     temps = readTemps()
     ave81 = calculateAve(temps, 0, 81)
