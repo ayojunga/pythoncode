@@ -15,24 +15,20 @@ def readData(filename):
 # calculates and returns the average of the numbers
 # in the the specified list (l)
 # ------------------------------------------------------
+readData("data-rush.txt")
 
 def getAverage(speeds):
-    ave = sum(speeds) / float(len(speeds))
-    ave = float("{0:.2f}".format(ave)) #rounds the ave to 2 decimal points
-    return ave
+    ave = 0.0
+    ave = sum(speeds) / len(speeds)
+    print ave
 
+    
 # ------------------------------------------------------
 # counts and returns the number of values in the 
 # specified list (l) that are greater than or 
 # equal to maxSpeed
 # ------------------------------------------------------
-def countSpeeders(speeds, maxSpeed):
-    maxSpeed = 69
-    s = 0
-    for x in speeds:
-        if (x > maxSpeed):
-            s += 1
-    return s
+#def countSpeeders(speeds, maxSpeed):
 
 
 # ------------------------------------------------------
@@ -52,22 +48,9 @@ def countSpeeders(speeds, maxSpeed):
 # There were 6 speeders not during rush hour.  Total fine = $600
 # ------------------------------------------------------
 def main():
-    speeds = readData('data-rush.txt')
-    rave = getAverage(speeds)
-    rs = countSpeeders(speeds, 69)
-    rfine = rs * 150
-   
-    speeds = readData('data-not-rush.txt')
-    nrave = getAverage(speeds)
-    nr = countSpeeders(speeds, 69)
-    nrfine = nr * 100
-
-    print "The average speed during rush hour was %s " %rave
-    print "The average speed not during rush hour was %s" %nrave
-    print "There were %s speeders during rush hour. Total fine = $%s" % (rs, rfine)
-    print "There were %s speeders not during rush hour. Total fine = $%s" % (nr, nrfine)
+    
     
 # ------------------------------------------------------
 # kick off the program by calling main
 # ------------------------------------------------------
-main()
+#main()
