@@ -1,0 +1,7 @@
+[
+{"Professor" : "Mark Cohen", "Email" : ["mark.cohen@mcla.edu"], "Hours" : "W: 4:00pm - 6:00pm; Th: 8:30am - 9:30am", "Food" : "Krabby Patties", "Hobby" : "Breakdancing"},
+{"Professor" : "David Eve", "Email" : ["d.eve@mcla.edu"], "Hours" : "M: 4:00pm - 5:00pm; T/Th 12:30pm - 1:30pm", "Food" : "Lasagna", "Hobby": "Hiking"},
+{"Professor" : "Spencer Moser", "Email" : ["Spencer.Moser@mcla.edu"], "Hours" : "M: 9:00am - 11:00am", "Food" : "Pasta", "Hobby": "Reading"},
+{"Professor" : "Karen Cardozo", "Email" : ["k.cardozo@mcla.edu"], "Hours" : "T: 3:30pm - 5pm; W: 12:30pm - 2pm", "Food" : "Sushi", "Hobby": "Bird Watching"},
+{"Professor" : "Yunus Umarov", "Email" : ["yu5329@mcla.edu"], "Hours" : "Sorry but I don't do office hours", "Food" : "Pizza", "Hobby" : "Sleeping"}
+]

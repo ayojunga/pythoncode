@@ -32,8 +32,6 @@ def searchFile(fname, word):
 	return count
 	
 	
-	
-
 def main():
 	
 	fileList = readFiles()
